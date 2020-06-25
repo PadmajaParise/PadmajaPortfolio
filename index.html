@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padmaja's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9e7e33d92a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>    
+     
+        <div class="logo">
+      
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation" >
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skillsets" class="nav__link">My Skills-set</a></li>
+                <li class="nav__item"><a href="#project" class="nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Padmaja Parise</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web developer</p>
+        <img src="images/Profile.jpg" alt="a picture of Padmaja smiling" class="intro__img">
+    </section>
+
+    <!-- My Skills-Set -->
+    <section class="my-skillsets" id="skillsets">
+        <h2 class="skillset__title skillset__title--skillsets">My Skills-Set</h2>
+        <div class="skillsets">
+            <div class="skillset">
+                <span class="fa fa-laptop" style="color:rgb(243, 151, 27)"></span>
+                <h3 style="margin: .5em">Front-end</h3>
+                <p>
+                    HTML(5)
+                    <br>CSS(3)
+                    <br>Javascript
+                    <br>jQuery
+                </p>
+            </div>
+            <div class="skillset">
+                <span class="fa fa-star" style="color:rgb(243, 151, 27)"></span>
+                <h3 style="margin: .5em">Tools</h3>
+                <p>
+                    Github</br>
+                </p>
+            </div>
+        </div>
+        <a href="#project" class="btn" >My Projects</a>                
+        <a href="#home" class="btn" >Home</a>
+    </section>
+
+   <!-- My Projects -->     
+   <section class="project" id="project">      
+        <div class="container">
+            <h2 class="project__title" style="text-align: center">My Projects</h2>
+            <div class="project-content">
+            
+            <!-- Portfolio item 01 --> 
+                <div class="card">  
+                    <div class="box">
+                        <img src="images/Portfolio_CRF.PNG" alt="" class="portfolio__img">
+                        <h3>Customer Registration Form</h3>
+                        <p>Customer Registration Form takes in the user inputs, validates the email address and passwords which can be visible/invisible(all *). Also, the form will prompt you if any fields are not filled. </p>
+                        <a class="btn" target="_blank" href="https://customerregistrationform.imfast.io/">Customer Registration Form</a>
+                    </div> 
+                </div> 
+            <!-- Portfolio item 02 -->            
+            <div class="card">  
+                <div class="box">
+                    <img src="images/Portfolio_StoreLocator.PNG" alt="" class="portfolio__img">
+                    <h3>Starbucks Store Locator</h3>
+                    <p>GOOGLE MAPS APP! It is a store locator project created using HTML, CSS and JavaScript. 
+                        It displays all the Starbucks stores. Helps find stores based on the Zipcode.</p>
+                    <a class="btn" target="_blank" href="https://starbucksstorelocatorapp.imfast.io/">Starbucks Store Locator</a>
+                </div> 
+            </div> 
+                <!-- Portfolio item 03 --> 
+                <div class="card">  
+                    <div class="box">
+                        <img src="images/Portfolio_Guess-The-Number.PNG" alt="" class="portfolio__img">
+                        <h3>Guess the Number Game</h3>
+                        <p>Guess the Number game takes in a user input(number) between 1 and 100 and compares it with the system generated 
+                            random number. It gives a feedback based on whether the input number is small, large or equal. </p>
+                        <a class="btn" target="_blank" href="https://guess-thenumber-game.imfast.io/">Guess the Number Game</a>
+                    </div> 
+                </div> 
+            
+            <!-- Portfolio item 04 --> 
+                <div class="card">  
+                    <div class="box">
+                        <img src="images/Portfolio_Edison.PNG" alt="" class="portfolio__img">
+                        <h3>Tribute to Edison</h3>
+                        <p>This is a tribute page for Thomas Edison. The important events related to Edison is listed in chronological
+                           order under Timeline. The link to his Wikipedia is also available.</p>
+                        <a class="btn" target="_blank" href="https://padmajaparise.github.io/AllAbout_ThomasEdison/">Tribute to Edison</a>
+                    </div> 
+                </div> 
+            <!-- Portfolio item 05 --> 
+            <div class="card">  
+                <div class="box">
+                    <img src="images/Portfolio_QuizApp.PNG" alt="" class="portfolio__img">
+                    <h3>Scouts Quiz App</h3>
+                    <p>Scouts Quiz App is an interactive quiz app that test our scout knowledge. The score is maintained and we receive the feedback after every question and the overall summary at the end.</p>
+                    <a class="btn" target="_blank" href="https://scoutquizapp.imfast.io/">Scouts Quiz App</a>
+                </div> 
+            </div> 
+            <!-- Portfolio item 06 --> 
+                <div class="card">  
+                    <div class="box">
+                        <img src="images/Portfolio_TextEditor.PNG" alt="" class="portfolio__img">
+                        <h3>Text Editor</h3>
+                        <p>A very simple Text editor that can make the text : Bold, Italic, Underline 
+                            and postion the text in left, center or to the right of the editor. At any given moment only one of the three positions is active</p>
+                        <a class="btn" target="_blank" href="https://texteditorapp.imfast.io">Text Editor</a>
+                    </div> 
+                </div> 
+
+            </div>
+        </div>                  
+         <div class=" container_end">            
+            <a href="#home" class="btn" >Home</a>  
+         </div> 
+   </section>
+
+
+    <footer class="footer">
+        <a href="mailto:parise_padmaja@yahoo.com" class="footer__link">parise_padmaja@yahoo.com</a>
+        <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/Padmaja38" target="_blank" >
+                    <i class="fa fa-twitter"></i>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/PadmajaParise" target="_blank">
+                    <i class="fa fa-github"></i>
+                </li>
+        </ul>
+        <div style="text-align:center" class="footer_cp">
+            <p id="logo">PP</p>
+            <p id="copyright">Copyright &copy; 2020 | Padmaja Parise</p>
+        </div>       
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
